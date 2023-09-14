@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Box</title>
+    <style>
+        p:hover{
+            background-color: aqua;
+           font-size: 30px;
+           font-weight: 600;
+        }
+        a:visited{
+            color: rebeccapurple;
+        }
+        li:nth-child(2n){
+            color: chartreuse;
+        }
+        li:first-child{
+            color: darkgoldenrod;
+        }
+        li:last-child{
+            color: darksalmon;
+        }
+        li::before{
+            content:'liked ';
+        }
+        li::after{
+            content: ' disliked';
+        }
+    </style>
+</head>
+<body>
+   <p>My name is Mahazabin .</p>My youtube chennel link <a href="https://www.youtube.com/@selfstudyzone9026">click click.</a><a href="https://www.bing.com/ck/a?!&&p=0c0b21238b22ddf7JmltdHM9MTY5NDU2MzIwMCZpZ3VpZD0wMmE2ZTBiNy03ODQ1LTZjMTMtMjM5MS1mM2ZmNzk0NDZkMjImaW5zaWQ9NTI0Ng&ptn=3&hsh=3&fclid=02a6e0b7-7845-6c13-2391-f3ff79446d22&psq=new+website&u=a1aHR0cHM6Ly93d3cuc3F1YXJlc3BhY2UuY29tLw&ntb=1">New web.</a> 
+
+
+   <ul>
+    <li>listed iteam -1</li>
+    <li>listed iteam -2</li>
+    <li>listed iteam -3</li>
+    <li>listed iteam -4</li>
+    <li>listed iteam -5</li>
+    <li>listed iteam -6</li>
+   </ul>
+</body>
+</html>
